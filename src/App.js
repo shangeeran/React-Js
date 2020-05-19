@@ -7,11 +7,13 @@ import Hello from './components/Hello'
 import Message from './components/Message'
 import Counter from './components/Counter'
 import EventBind from './components/EventBind';
+import UserGreeting from './components/UserGreeting';
 
 function App() {
   return (
     <div className="App">
-      <EventBind />
+      <UserGreeting />
+      {/* <EventBind /> */}
       {/* <Counter /> */}
       {/* <Message /> */}
       {/* <Greet name="Bruce" heroName="Batman">
